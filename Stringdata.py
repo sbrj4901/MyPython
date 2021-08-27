@@ -1,0 +1,23 @@
+# STRING DATA TYPES
+S="python programming"
+print(dir(S))
+print(S.upper())
+print(S.capitalize())
+print(S.count('prog'))
+print(S.endswith('ing'))
+print(S.isalnum())
+print(S.index('mm',0,))
+print(S.find('r'))
+print(S.isalpha())
+print(S.isdigit())
+print(S.islower())
+print(S.isupper())
+print(S.isspace())
+print(len(S))
+print(S.swapcase())
+print(S.rstrip('programming'))
+print(S.replace('p','P'))
+# (Interchange:upper to lower or lower to upper)
+# print(s.replace("/","-"))
+# a="hello"[::-1]
+# print(a)
