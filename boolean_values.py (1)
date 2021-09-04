@@ -1,0 +1,8 @@
+set_value = True
+from index  import do_something
+
+if set_value == True:
+	s = do_something(50)
+	print(s)
+else:
+	print("Value is not set to True")
