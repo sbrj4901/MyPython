@@ -26,3 +26,12 @@ def fun():
 	return [str, x]
 list = fun()
 print(list)
+
+#method using dictionary
+def fun():
+	d = dict()
+	d ['str'] = "geeks for geeks"
+	d ['x'] = 20
+	return d
+d = fun()
+print(d)
