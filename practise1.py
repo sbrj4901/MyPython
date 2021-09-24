@@ -35,3 +35,15 @@ def fun():
 	return d
 d = fun()
 print(d)
+
+#return multiple values from a method using class 
+class Test:
+ 	def __init__ (self):
+ 		self.str ='geeks for geeks'
+ 		self.x = 20
+
+def fun():
+	return Test()
+a = fun()
+print(a.str)
+print(a.x)
