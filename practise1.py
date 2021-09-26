@@ -47,3 +47,9 @@ def fun():
 a = fun()
 print(a.str)
 print(a.x)
+
+#Python User Defined Function
+def calculate_si_amount(principal, rate, time):
+  interest =  (principal*rate*time)/100
+  return principal+interest
+print (calculate_si_amount(9,10,4))
