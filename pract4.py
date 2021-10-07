@@ -15,3 +15,14 @@ elif a == b:
   print("a and b are equal")
 else:
   print("a is greater than b")
+
+# if statements inside if statements
+x = 40
+
+if x > 13:
+  print("Above ten,")
+  if x > 22:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
+
