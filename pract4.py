@@ -26,3 +26,11 @@ if x > 13:
   else:
     print("but not above 20.")
 
+# if not expression
+string_1 = ''
+
+if not string_1:
+    print('String is empty.')
+else:
+    print(string_1)
+
