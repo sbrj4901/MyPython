@@ -1,3 +1,4 @@
+# Day4
 # TUBLE DATA TYPES,DICTIONARY DATA TYPES,
 # TUBLE
 t=(1,2,3,4)
@@ -31,3 +32,9 @@ print(d)
 a={1,2,3,4}
 b={1,2,3,4,5}
 print(dir(a))
+
+#Delete Tuple 
+thistuple = ("apple", "banana", "cherry")
+del thistuple
+print(thistuple) #this will raise an error because the tuple no longer exists
+
